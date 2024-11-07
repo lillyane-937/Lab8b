@@ -4,7 +4,7 @@ This project applies **Decision Tree Classification** to predict a specific labe
 
 ## Project Overview
 
-The goal of this project is to solve a classification problem by predicting a label for Airbnb listings based on chosen features. I implemented a decision tree model, fine-tuned it through **grid search** to find optimal hyperparameters, evaluated the model with multiple metrics, and saved it for future use.
+The goal of this project is to solve a classification problem by predicting a label(Instant availability) for Airbnb NYC listings based on chosen features. I implemented a decision tree model, fine-tuned it through **grid search** to find optimal hyperparameters, evaluated the model with multiple metrics, and saved it for future use.
 
 ### Key Tasks
 
@@ -22,8 +22,6 @@ The goal of this project is to solve a classification problem by predicting a la
    - **Evaluation of Optimized Model**: Re-trained, tested, and evaluated the decision tree model using the optimal hyperparameters.
 
 4. **Model Evaluation**:
-   - **Precision-Recall Curve**: Plotted precision-recall curves for both the default and optimized models to compare precision and recall at different thresholds.
-   - **ROC Curve and AUC**: Generated the Receiver Operating Characteristic (ROC) curve and calculated the Area Under the Curve (AUC) for both models, helping evaluate model effectiveness.
    - **Feature Importance**: Visualized the importance of each feature in the decision tree, highlighting the most impactful predictors.
 
 5. **Model Persistence**:
@@ -39,8 +37,6 @@ The goal of this project is to solve a classification problem by predicting a la
   - **scikit-learn**: For implementing the decision tree classifier, performing grid search, and evaluating the model.
 
 ## Results
-
-- **Model Comparison**: The optimized decision tree model demonstrated better precision, recall, and AUC scores compared to the initial model.
 - **Feature Importance**: The feature importance plot provided insight into the most influential features, enhancing interpretability of the model’s decisions.
 
 ## What I Learned
